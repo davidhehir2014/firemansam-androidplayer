@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hehir.firemansam" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/samicon1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!--This meta-data tag is required to use Google Play Services.-->
+        <meta-data android:name="com.google.android.gms.version"
+                   android:value="@integer/google_play_services_version" />
+
+
+        <activity
+            android:name="com.hehir.firemansam.AllSeriesHomeActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+            </intent-filter>
+        </activity>
+
+        <activity android:name="com.hehir.firemansam.SeasonOneActivity"
+                  android:label="Season One"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonOneEpisodeOne"
+                  android:label="Season One Episode One"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonOneEpisodeTwo"
+                  android:label="Season One Episode Two"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonOneEpisodeThree"
+                  android:label="Season One Episode Three"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonOneEpisodeFour"
+                  android:label="Season One Episode Four"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonOneEpisodeFive"
+                  android:label="Season One Episode Five"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonOneEpisodeSix"
+                  android:label="Season One Episode Six"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonOneEpisodeSeven"
+                  android:label="Season One Episode Seven"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonOneEpisodeEight"
+                  android:label="Season One Episode Eight"
+                ></activity>
+
+
+
+        <activity android:name="com.hehir.firemansam.SeasonTwoActivity"
+                  android:label="Season Two"
+                ></activity>
+
+        <activity android:name="com.hehir.firemansam.SeasonTwoEpisodeOne"
+                  android:label="Season Two Episode One"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonTwoEpisodeTwo"
+                  android:label="Season Two Episode Two"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonTwoEpisodeThree"
+                  android:label="Season Two Episode Three"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonTwoEpisodeFour"
+                  android:label="Season Two Episode Four"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonTwoEpisodeFive"
+                  android:label="Season Two Episode Five"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonTwoEpisodeSix"
+                  android:label="Season Two Episode Six"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonTwoEpisodeSeven"
+                  android:label="Season Two Episode Seven"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonTwoEpisodeEight"
+                  android:label="Season Two Episode Eight"
+                ></activity>
+
+        <activity android:name="com.hehir.firemansam.SeasonThreeActivity"
+                  android:label="Season Three"
+                ></activity>
+
+
+        <activity android:name="com.hehir.firemansam.SeasonThreeEpisodeOne"
+                  android:label="Season Three Episode One"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonThreeEpisodeTwo"
+                  android:label="Season Three Episode Two"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonThreeEpisodeThree"
+                  android:label="Season Three Episode Three"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonThreeEpisodeFour"
+                  android:label="Season Three Episode Four"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonThreeEpisodeFive"
+                  android:label="Season Three Episode Five"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonThreeEpisodeSix"
+                  android:label="Season Three Episode Six"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonThreeEpisodeSeven"
+                  android:label="Season Three Episode Seven"
+                ></activity>
+        <activity android:name="com.hehir.firemansam.SeasonThreeEpisodeEight"
+                  android:label="Season Three Episode Eight"
+                ></activity>
+
+        <!--Include the AdActivity configChanges and theme. -->
+        <activity android:name="com.google.android.gms.ads.AdActivity"
+                  android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+                  android:theme="@android:style/Theme.Translucent" />
+
+
+    </application>
+
+</manifest>

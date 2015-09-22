@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@mipmap/fireman_sam_season1_bg"
+              android:id="@+id/seasonone">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 1 - The Kite"
+            android:onClick="onClickSeason1Episode1"
+            android:id="@+id/season1episode1"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 2 - Barn Fire"
+            android:onClick="onClickSeason1Episode2"
+            android:id="@+id/season1episode2"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 3 - Trevor's Training"
+            android:onClick="onClickSeason1Episode3"
+            android:id="@+id/season1episode3"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 4 - Flat Tyre"
+            android:onClick="onClickSeason1Episode4"
+            android:id="@+id/season1episode4"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 5 - Lost Cat"
+            android:id="@+id/season1episode5"
+            android:onClick="onClickSeason1Episode5"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 6 - Norman's Tricky Day"
+            android:onClick="onClickSeason1Episode6"
+            android:id="@+id/season1episode6"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 7 - Camping"
+            android:id="@+id/season1episode7"
+            android:onClick="onClickSeason1Episode7"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 8 - Telly Trouble"
+            android:id="@+id/season1episode8"
+            android:onClick="onClickSeason1Episode8"/>
+</LinearLayout>

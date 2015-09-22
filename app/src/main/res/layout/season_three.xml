@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@mipmap/fireman_sam_season1_bg"
+              android:id="@+id/seasonthree">
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 1 - Dily's Forgetful Day"
+            android:onClick="onClickSeason3Episode1"
+            android:id="@+id/season3episode1"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 2 - Spot Of Bother"
+            android:onClick="onClickSeason3Episode2"
+            android:id="@+id/season3episode2"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 3 - Halloween"
+            android:onClick="onClickSeason3Episode3"
+            android:id="@+id/season3episode3"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 4 - Norman's Pitfall"
+            android:onClick="onClickSeason3Episode4"
+            android:id="@+id/season3episode4"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 5 - Lost Ring"
+            android:onClick="onClickSeason3Episode5"
+            android:id="@+id/season3episode5"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 6 - All In A Good Cause"
+            android:onClick="onClickSeason3Episode6"
+            android:id="@+id/season3episode6"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 7 - Brass Band"
+            android:onClick="onClickSeason3Episode7"
+            android:id="@+id/season3episode7"/>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Episode 8 - Lost In The Fog"
+            android:onClick="onClickSeason3Episode8"
+            android:id="@+id/season3episode8"/>
+</LinearLayout>
